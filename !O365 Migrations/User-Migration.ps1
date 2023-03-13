@@ -2,7 +2,7 @@
 # Script used to "migrate" user - AD to AD within one Tennant - detach AD User in Domain A from O365 user, and attach user from domain B to O365 account
 # Function "ConvertTo-ImmutableID" is a part of PSSharedGoods module created by - Evotec on MIT License https://github.com/EvotecIT/PSSharedGoods
 # "region Enable-RemoteMailbox" is an optional step for creating remote mailbox on Exchange server in domain B pointing to O365 user
-# "region connection" uses Export-CliXml / Import-CliXml to securely save and load credentials. See: https://github.com/bkuciel/Powershell_Scripts/Code/Export-Clixml_multiple_credentials.ps1
+# "region connection" uses Export-CliXml / Import-CliXml to securely save and load credentials. See: https://github.com/bkuciel/Powershell_Scripts/blob/main/Code/Export-Clixml_multiple_credentials.ps1
 
 [CmdletBinding()] param ()
 

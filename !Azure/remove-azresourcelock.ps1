@@ -1,1 +1,0 @@
-Remove-AzResourceLock -LockName Read-Only-accounting -ResourceGroup RG-1
